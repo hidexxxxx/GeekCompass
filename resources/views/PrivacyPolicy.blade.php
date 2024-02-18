@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Geek Compass</title>
+        <title>Geek's Compass</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -62,7 +62,7 @@
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                    <h2 class="text-base text-gray-900 tracking-widest font-medium title-font mb-1">Geek Compass</h2>
+                    <h2 class="text-base text-gray-900 tracking-widest font-medium title-font mb-1">Geek's Compass</h2>
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">プライバシーポリシー（個人情報の取り扱いについて）</h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Geek Compassの運営側（以下「運営側」といいます。）は、利用者の個人情報保護の重要性について認識し、個人情報の保護に関する法律（以下「個人情報保護法」といいます。）を遵守すると共に、以下の個人情報の取り扱いに従い、適切な取扱い及び保護に努めます。</p>
                     </div>
@@ -172,7 +172,7 @@
         <footer class="text-gray-600 body-font">
             <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center">
                 <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2 hover:cursor-pointer" alt="Logo" width="9.9%" height="3%" onclick="window.location.href = '/welcome'">
-                <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Geek Compass —
+                <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Geek's Compass —
                 {{-- Xのアカウント情報 --}}
                 <a href="https://twitter.com/marucy_official" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@marucy_official</a>
                 <a href="https://twitter.com/sociality_nxt_0" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@sociality_nxt_0</a>

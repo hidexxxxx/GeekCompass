@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Geek Compass</title>
+        <title>Geek's Compass</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -182,7 +182,7 @@
         <footer class="text-gray-600 body-font">
             <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center">
                 <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2 hover:cursor-pointer" alt="Logo" width="9.9%" height="3%" onclick="window.location.href = '/welcome'">
-                <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Geek Compass —
+                <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Geek's Compass —
                 {{-- Xのアカウント情報 --}}
                 <a href="https://twitter.com/marucy_official" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@marucy_official</a>
                 <a href="https://twitter.com/sociality_nxt_0" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@sociality_nxt_0</a>
