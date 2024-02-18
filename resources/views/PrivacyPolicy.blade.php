@@ -62,7 +62,7 @@
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                    <h2 class="text-xs text-gray-900 tracking-widest font-medium title-font mb-1">Geek Compass</h2>
+                    <h2 class="text-base text-gray-900 tracking-widest font-medium title-font mb-1">Geek Compass</h2>
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">プライバシーポリシー（個人情報の取り扱いについて）</h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Geek Compassの運営側（以下「運営側」といいます。）は、利用者の個人情報保護の重要性について認識し、個人情報の保護に関する法律（以下「個人情報保護法」といいます。）を遵守すると共に、以下の個人情報の取り扱いに従い、適切な取扱い及び保護に努めます。</p>
                     </div>
@@ -73,48 +73,96 @@
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">2）個人情報の利用目的</h2>
+                        <p class="leading-relaxed text-base mb-4">運営側が、本サービス及びこれに関連して運営側が運営する各種サービス（以下「サービス等」といいます。）を管理及び運営するため。
+                        <br>
+                        利用者が運営側のサービスを利用するにあたり運営側が必要な連絡をするため。
+                        <br>
+                        運営側のサービスに関するご案内、お問い合せ等への対応のため
+                        <br>
+                        運営側からのアンケート、若しくはサービスに関するご案内（メールでの配信も含みます。）のため。
+                        <br>
+                        運営側のサービスに関する運営側の規約、ポリシー等（以下「規約等」といいます。）に違反する行為に対する対応のため。
+                        <br>
+                        運営側のサービスに関する規約等の変更などを通知するため。
+                        <br>
+                        運営側のサービスの改善、新サービスの開発等に役立てるため。
+                        <br>
+                        運営側のサービスに関連して、個人を識別できない形式に加工した統計データを作成するため。
+                        <br>
+                        運営側のサービスに関連する外部サービスと連携を行うため。
+                        <br>
+                        運営側のサービスの関するマーケティングに役立てるため。
+                        <br>
+                        その他、上記利用目的に付随する目的のため。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">3）個人情報の第三者提供について</h2>
+                        <p class="leading-relaxed text-base mb-4">運営側は、個人情報保護法その他の法令に基づき開示が認められる場合を除くほか、あらかじめ利用者の同意を得ないで、個人情報を第三者に提供しません。但し、次に掲げる場合は上記に定める第三者への提供には該当しません。</p>
+                        <p class="leading-relaxed text-base mb-4">サービス等を提供するために、一部の業務を第三者に委託する場合。人の生命、身体又は財産の保護のために必要がある場合であって、利用者本人の同意を得ることが困難であると判断した場合。その他、個人情報保護法その他の法令で認められる場合。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">4）個人情報の安全管理</h2>
+                        <p class="leading-relaxed text-base mb-4">運営側は、個人情報の紛失、破壊、改ざん及び漏洩などのリスクに対して、個人情報の取扱いの全部又は一部を委託する場合は、委託先において個人情報の安全管理が図られるよう、必要かつ適切な監督を行います。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">5）個人情報の開示</h2>
+                        <p class="leading-relaxed text-base mb-4">運営側は、利用者から、個人情報保護法の定めに基づき個人情報の開示を求められたときは、利用者ご本人からのご請求であることを確認の上で、お客様に対し、遅滞なく開示を行います。（当該個人情報が存在しないときにはその旨を通知いたします）但し、個人情報保護法その他の法令により、運営側が開示の義務を負わない場合は、この限りではありません。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">6）個人情報の利用停止等</h2>
+                        <p class="leading-relaxed text-base mb-4">運営側は、利用者から、利用者の個人情報が、あらかじめ公表された利用目的の範囲を超えて取り扱われているという理由又は偽りその他不正の手段により取得されたものであるという理由により、個人情報保護法の定めに基づきその利用の停止又は消去（以下「利用停止等」といいます。）を求められた場合、又は個人情報がご本人の同意なく第三者に提供されているという理由により、個人情報保護法の定めに基づきその提供の停止（以下「提供停止」といいます。）を求められた場合において、そのご請求に理由があることが判明した場合には、利用者ご本人からのご請求であることを確認の上で、遅滞なく個人情報の利用停止等又は提供停止を行い、その旨をお客様に通知します。但し、個人情報保護法その他の法令により、運営側が利用停止等又は提供停止の義務を負わない場合は、この限りではありません。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">7）Cookie（クッキー）その他の技術の利用</h2>
+                        <p class="leading-relaxed text-base mb-4">運営側のサービスは、Cookie及びこれに類する技術を利用することがあります。これらの技術は、運営側による運営側のサービスの利用状況等の把握に役立ち、サービス向上に資するものです。Cookieを無効化されたいユーザーは、ウェブブラウザの設定を変更することによりCookieを無効化することができます。但し、Cookieを無効化すると、運営側のサービスの一部の機能をご利用いただけなくなる場合があります。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">8）運営側が収集する情報</h2>
+                        運営側は、利用者が良いメンタリングを実施でき不安や悩み、不明点の解消ができるお手伝いをさせていただくため、利用者の情報を取得します。アクセスログなどの利用者のサービス利用に関する情報のほか、利用者がソーシャルメディアアカウントを通して運営側サービスにアクセスした場合や、利用者がプロフィールを完成するためにソーシャルメディアのアカウントから情報をアップロードした場合などには、第三者から提供される情報も収集します。詳細は以下をご覧ください。
+                        アカウントを作成する際には、利用者のログイン認証情報、電子メールアドレス、その他の情報などサービスを利用するために必要な基本情報を提供していただきます。
+                        利用者のプロフィール登録が完了すると、利用者がサービスに入力される情報も運営側と共有されます。写真やビデオなどのコンテンツを追加する場合には、運営側は、利用者の許可を得た場合に限り、利用者のカメラや写真アルバムにアクセスする場合があります。
+                        利用者が運営側のアンケート、フォーカスグループ、市場調査に参加されると、運営側の製品・サービスに対する利用者のご意見や推薦の言葉、運営側の質問に対する回答が運営側に提供されます。</p>
+                        
+                        <p class="leading-relaxed text-base mb-4 mt-4">他者から提供される情報<br>
+                        運営側が受け取る利用者情報は、利用者から直接提供されるもの以外に、他者から取得するものもあります。具体的には以下の情報です。</p>
+
+                        <p class="leading-relaxed text-base mb-4 mt-4">利用者<br>
+                        運営側のサービス利用者から、利用者に関する情報が提供される場合があります。</p>
+
+                        <p class="leading-relaxed text-base mb-4 mt-4">ソーシャルメディア<br>
+                        利用者は、ご自身のソーシャルメディアアカウントを通じて、運営側に情報を提供することができます。例えば、利用者がソーシャルメデイアアカウントやその他のアカウント（LINE、Facebook、Google、Appleなど）を介してアカウントを作成してログインする場合などがあります。利用者は、サービスの設定で、いつでもプロフィール情報を編集することができます。</p>
+
+                        <p class="leading-relaxed text-base mb-4 mt-4">認証機能を提供する第三事業者<br>
+                        利用者は、他の事業者から提供された利用者の識別コード（Apple IDなど）を使って運営側のサービスにログインする機能を与えられることがあります。利用者がこのような機能をご利用になる場合、運営側は、利用者または事業者から、利用者の識別コード、電子メールアドレス、または事業者が利用者を識別するために使用するその他の情報を取得します。</p>
+
+                        <p class="leading-relaxed text-base mb-4 mt-4">利用情報<br>
+                        運営側は、サービスにおける利用者の行動に関する情報を収集しています。例えば、利用者が運営側のサービスをどのように利用したのか（ログインした日時、使用していた機能、実行したアクション、利用者に表示された情報）といった情報や、利用者と他の利用者とのやり取り（お相手の情報、お相手とやり取りした日時、送受信したメッセージの数など）などを収集します。</p>
+
+                        <p class="leading-relaxed text-base mb-4 mt-4">デバイス情報<br>                           
+                        利用者が運営側サービスにアクセスされる際に使用されたデバイスから、デバイスに関する情報が収集されます。これにはハードウェアおよびソフトウェアの情報が含まれ、具体的には、IPアドレス、デバイスのIDおよび種類、アプリの設定や特徴、アプリのクラッシュに関する情報、または特定のデバイスやブラウザを識別できるクッキーやそれに類する情報と関連付けられた識別子などが含まれます。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">9）お問合せ窓口</h2>
+                        <p class="leading-relaxed text-base mb-4">開示等のお申出、ご意見、ご質問、苦情のお申出その他個人情報の取扱いに関するお問い合わせは、運営を行っている下記の丸山と山本の連絡先までご連絡お願い致します。
+                        <br>
+                        【email　受付】masato23.maruyama@gmail.com　&　hidetaka54522@gmail.com
+                        <br>
+                        【SNS（X）　受付】@marucy_official　&　@sociality_nxt_0</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
-                        <p class="leading-relaxed text-base mb-4"></p>
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">10）本ポリシーの変更</h2>
+                        <p class="leading-relaxed text-base mb-4">運営側は、利用者の個人情報の取扱いに関する運用状況を適宜見直し、継続的な改善に努めるものとし、必要に応じて本ポリシーを変更することがあります。運営側が本ポリシーを変更した場合には、通知致します。</p>
+                        <br>
+                        <p class="leading-relaxed text-base mb-4">2024年2月13日 制定・施行</p>
                     </div>
 
                 </div>
