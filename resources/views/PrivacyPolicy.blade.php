@@ -62,56 +62,68 @@
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                    <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">ROOF PARTY POLAROID</h2>
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Master Cleanse Reliac Heirloom</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+                    <h2 class="text-xs text-gray-900 tracking-widest font-medium title-font mb-1">Geek Compass</h2>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">プライバシーポリシー（個人情報の取り扱いについて）</h1>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Geek Compassの運営側（以下「運営側」といいます。）は、利用者の個人情報保護の重要性について認識し、個人情報の保護に関する法律（以下「個人情報保護法」といいます。）を遵守すると共に、以下の個人情報の取り扱いに従い、適切な取扱い及び保護に努めます。</p>
                     </div>
-                    <div class="flex flex-wrap">
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
-                        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                        <a class="text-indigo-500 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                        </a>
+                        
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">１）個人情報の定義</h2>
+                        <p class="leading-relaxed text-base mb-4">個人情報とは、個人情報保護法第2条第1項により定義された個人情報、すなわち、生存する個人に関する情報であって、当該情報に含まれる記述等により特定の個人を識別することができるもの（他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるものを含みます。）を意味するものとします。</p>
                     </div>
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
-                        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                        <a class="text-indigo-500 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                        </a>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
                     </div>
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Neptune</h2>
-                        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                        <a class="text-indigo-500 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                        </a>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
                     </div>
-                    <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Melanchole</h2>
-                        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                        <a class="text-indigo-500 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                        </a>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
                     </div>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
                     </div>
-                    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
+                    </div>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
+                    </div>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
+                    </div>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
+                    </div>
+
+                    <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+                        <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"></h2>
+                        <p class="leading-relaxed text-base mb-4"></p>
+                    </div>
+
                 </div>
             </section>
         </main>
 
         <footer class="text-gray-600 body-font">
             <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center">
-                <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2" alt="Logo" width="9.9%" height="3%">
+                <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2 hover:cursor-pointer" alt="Logo" width="9.9%" height="3%" onclick="window.location.href = '/welcome'">
                 <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Geek Compass —
                 {{-- Xのアカウント情報 --}}
                 <a href="https://twitter.com/marucy_official" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@marucy_official</a>
