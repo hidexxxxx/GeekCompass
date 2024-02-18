@@ -62,14 +62,14 @@
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                    <h2 class="text-xs text-gray-900 tracking-widest font-medium title-font mb-1">Geek Compass</h2>
+                    <h2 class="text-base text-gray-900 tracking-widest font-medium title-font mb-1">Geek Compass</h2>
                     <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">利用規約</h1>
                     <p class="lg:w-2/3 mx-auto leading-relaxed text-base">本サービス（第４条第１号で定義します）の利用者は、本規約の規定に従う必要があります。下記の全文に目を通していただきますようお願いいたします。本規約は運営側（第４条第２号で定義します）と利用者との契約にはすべて本規定が適用され遵守するものとします。</p>
                     </div>
                         
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                         <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">第1条（規約への同意）</h2>
-                        <p class="leading-relaxed text-base mb-4">本サービスをご利用になる前に、本規約を良くお読みください。利用者は、本規約の定めに従って本サービスを利用しなければなりません。利用者は、会員登録をしないかぎり本サービスを利用できません。利用者は会員登録をするにあたり、本規約に同意して頂くことが必要であり、会員登ω録が完了した時点で、本規約を内容とする本サービス利用契約（以下「本契約」といいます）が運営側との間で締結されます。</p>
+                        <p class="leading-relaxed text-base mb-4">本サービスをご利用になる前に、本規約を良くお読みください。利用者は、本規約の定めに従って本サービスを利用しなければなりません。利用者は、会員登録をしないかぎり本サービスを利用できません。利用者は会員登録をするにあたり、本規約に同意して頂くことが必要であり、会員登録が完了した時点で、本規約を内容とする本サービス利用契約（以下「本契約」といいます）が運営側との間で締結されます。</p>
                     </div>
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
