@@ -311,7 +311,7 @@
 
                     <div class="md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                         <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">第２０条（附則）</h2>
-                        <p class="leading-relaxed text-base mb-4">2024年2月13日 制定・施行</p>
+                        <p class="leading-relaxed text-base mb-4 mt-4">2024年2月13日 制定・施行</p>
                     </div>
                         
                 </div>
