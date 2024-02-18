@@ -18,23 +18,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/HowtoUse', function () {
-    return view('HowtoUse');
-});
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/HowtoUse', function () {
+    return view('HowtoUse');
+});
 
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/terms&conditions', function () {
+    return view('terms&conditions');
+});
 
-// Route::middleware('auth')->group(function () {
-//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-// });
+Route::get('/PrivacyPolicy', function () {
+    return view('PrivacyPolicy');
+});
 
-// require __DIR__.'/auth.php';
+Route::get('/AboutUs', function () {
+    return view('AboutUs');
+});
