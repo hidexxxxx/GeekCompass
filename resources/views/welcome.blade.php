@@ -65,7 +65,7 @@
                         <div class="rounded-lg h-64 overflow-hidden">
                             <img alt="content" class="object-cover object-center h-full w-full" src="images/GeekCompass_logo.png">
                         </div>
-                        <div class="flex flex-col sm:flex-col mt-10 justify-center text-center"> 
+                        <div class="flex flex-col sm:flex-col mt-16 mb-16 justify-center text-center"> 
                             <h1 class="sm:text-3xl text-3xl font-medium title-font mb-6 mt-6 text-gray-900">G'sのコミュニティーには</h1>
                             <h1 class="sm:text-3xl text-3xl font-medium title-font mb-6 mt-6 text-gray-900">素敵な知識や経験を持っている方が大勢います。</h1>
                             <h1 class="sm:text-3xl text-3xl font-medium title-font mb-6 mt-6 text-gray-900">G's Compassで素敵な知見を持っている方に出会い</h1>
