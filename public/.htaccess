@@ -37,7 +37,7 @@
     RewriteRule ^ index.php [L]
 
     # Additional Rewrite Rule to Redirect to Public Directory...
-    RewriteRule ^(.*)$ public/ [L]
+    # RewriteRule ^(.*)$ public/ [L]
 </IfModule>
 
 
