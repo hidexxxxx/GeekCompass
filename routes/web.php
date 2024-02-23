@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 // ▼ローカルDocker環境下で機能
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });
@@ -43,6 +44,7 @@ use Illuminate\Support\Facades\Route;
 
 
 // ▼本番環境下で機能
+
 Route::get('/', 'WelcomeController@index');
 Route::get('/welcome', 'WelcomeController@index');
 Route::get('/HowtoUse', 'HowtoUseController@index');
