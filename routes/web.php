@@ -57,7 +57,6 @@ use App\Http\Controllers\AboutUsController;
 // Route::get('/PrivacyPolicy', 'PrivacyPolicyController@index');
 // Route::get('/AboutUs', 'AboutUsController@index');
 
-
 // Route::get('/', 'App\Http\Controllers\WelcomeController@index');
 // Route::get('/welcome', 'App\Http\Controllers\WelcomeController@index');
 // Route::get('/HowtoUse', 'App\Http\Controllers\HowtoUseController@index');
