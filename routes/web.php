@@ -65,9 +65,9 @@ use App\Http\Controllers\AboutUsController;
 // Route::get('/PrivacyPolicy', 'App\Http\Controllers\PrivacyPolicyController@index');
 // Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
 
-Route::get('GeekCompass/', [WelcomeController::class, 'index']);
-Route::get('GeekCompass/welcome', [WelcomeController::class, 'index']);
-Route::get('GeekCompass/HowtoUse', [HowtoUseController::class, 'index']);
-Route::get('GeekCompass/terms&conditions', [TermsAndConditionsController::class, 'index']);
-Route::get('GeekCompass/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
-Route::get('GeekCompass/AboutUs', [AboutUsController::class, 'index']);
+Route::get('/', [WelcomeController::class, 'index']);
+Route::get('/GeekCompass/welcome', [WelcomeController::class, 'index']);
+Route::get('/GeekCompass/HowtoUse', [HowtoUseController::class, 'index']);
+Route::get('/GeekCompass/terms&conditions', [TermsAndConditionsController::class, 'index']);
+Route::get('/GeekCompass/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
+Route::get('/GeekCompass/AboutUs', [AboutUsController::class, 'index']);
