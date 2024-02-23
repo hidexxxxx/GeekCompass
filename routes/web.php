@@ -64,9 +64,16 @@ use App\Http\Controllers\AboutUsController;
 // Route::get('/PrivacyPolicy', 'App\Http\Controllers\PrivacyPolicyController@index');
 // Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
 
-Route::get('/', [WelcomeController::class, 'index']);
-Route::get('/welcome', [WelcomeController::class, 'index']);
-Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
-Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
-Route::get('/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
-Route::get('/AboutUs', [AboutUsController::class, 'index']);
+// Route::get('/', [WelcomeController::class, 'index']);
+// Route::get('/welcome', [WelcomeController::class, 'index']);
+// Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
+// Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
+// Route::get('/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
+// Route::get('/AboutUs', [AboutUsController::class, 'index']);
+
+Route::resource('/', 'WelcomeController');
+Route::resource('/welcome', 'WelcomeController');
+Route::resource('/HowtoUse', 'HowtoUseController');
+Route::resource('/terms&conditions', 'TermsAndConditionsController');
+Route::resource('/PrivacyPolicy', 'PrivacyPolicyController');
+Route::resource('/AboutUs', 'AboutUsController');
