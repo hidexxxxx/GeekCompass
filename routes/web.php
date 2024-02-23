@@ -45,9 +45,17 @@ use Illuminate\Support\Facades\Route;
 
 // ▼本番環境下で機能
 
-Route::get('/', 'WelcomeController@index');
-Route::get('/welcome', 'WelcomeController@index');
-Route::get('/HowtoUse', 'HowtoUseController@index');
-Route::get('/terms&conditions', 'TermsAndConditionsController@index');
-Route::get('/PrivacyPolicy', 'PrivacyPolicyController@index');
-Route::get('/AboutUs', 'AboutUsController@index');
+// Route::get('/', 'WelcomeController@index');
+// Route::get('/welcome', 'WelcomeController@index');
+// Route::get('/HowtoUse', 'HowtoUseController@index');
+// Route::get('/terms&conditions', 'TermsAndConditionsController@index');
+// Route::get('/PrivacyPolicy', 'PrivacyPolicyController@index');
+// Route::get('/AboutUs', 'AboutUsController@index');
+
+
+Route::get('/', 'App\Http\Controllers\WelcomeController@index');
+Route::get('/welcome', 'App\Http\Controllers\WelcomeController@index');
+Route::get('/HowtoUse', 'App\Http\Controllers\HowtoUseController@index');
+Route::get('/terms&conditions', 'App\Http\Controllers\TermsAndConditionsController@index');
+Route::get('/PrivacyPolicy', 'App\Http\Controllers\PrivacyPolicyController@index');
+Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
