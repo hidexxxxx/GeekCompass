@@ -2,6 +2,11 @@
 
 // use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\HowtoUseController;
+use App\Http\Controllers\TermsAndConditionsController;
+use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\AboutUsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,9 +58,16 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/AboutUs', 'AboutUsController@index');
 
 
-Route::get('/', 'App\Http\Controllers\WelcomeController@index');
-Route::get('/welcome', 'App\Http\Controllers\WelcomeController@index');
-Route::get('/HowtoUse', 'App\Http\Controllers\HowtoUseController@index');
-Route::get('/terms&conditions', 'App\Http\Controllers\TermsAndConditionsController@index');
-Route::get('/PrivacyPolicy', 'App\Http\Controllers\PrivacyPolicyController@index');
-Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
+// Route::get('/', 'App\Http\Controllers\WelcomeController@index');
+// Route::get('/welcome', 'App\Http\Controllers\WelcomeController@index');
+// Route::get('/HowtoUse', 'App\Http\Controllers\HowtoUseController@index');
+// Route::get('/terms&conditions', 'App\Http\Controllers\TermsAndConditionsController@index');
+// Route::get('/PrivacyPolicy', 'App\Http\Controllers\PrivacyPolicyController@index');
+// Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
+
+Route::get('/', [WelcomeController::class, 'index']);
+Route::get('/welcome', [WelcomeController::class, 'index']);
+Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
+Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
+Route::get('/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
+Route::get('/AboutUs', [AboutUsController::class, 'index']);
