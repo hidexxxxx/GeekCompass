@@ -1,14 +1,14 @@
 <?php
 
 // WelcomeController.php
-// namespace App\Http\Controllers;
+namespace App\Http\Controllers;
 
-// use Illuminate\Http\Request;
+use Illuminate\Http\Request;
 
-// class WelcomeController extends Controller
-// {
-//     public function index()
-//     {
-//         return view('welcome');
-//     }
-// }
+class WelcomeController extends Controller
+{
+    public function index()
+    {
+        return view('welcome');
+    }
+}
