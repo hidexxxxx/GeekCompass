@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
+// use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,26 +14,38 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+// ▼ローカルDocker環境下で機能
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/HowtoUse', function () {
-    return view('HowtoUse');
-});
+// Route::get('/welcome', function () {
+//     return view('welcome');
+// });
 
-Route::get('/terms&conditions', function () {
-    return view('terms&conditions');
-});
+// Route::get('/HowtoUse', function () {
+//     return view('HowtoUse');
+// });
 
-Route::get('/PrivacyPolicy', function () {
-    return view('PrivacyPolicy');
-});
+// Route::get('/terms&conditions', function () {
+//     return view('terms&conditions');
+// });
 
-Route::get('/AboutUs', function () {
-    return view('AboutUs');
-});
+// Route::get('/PrivacyPolicy', function () {
+//     return view('PrivacyPolicy');
+// });
+
+// Route::get('/AboutUs', function () {
+//     return view('AboutUs');
+// });
+
+
+
+// ▼本番環境下で機能
+Route::get('/', 'WelcomeController@index');
+Route::get('/welcome', 'WelcomeController@index');
+Route::get('/HowtoUse', 'HowtoUseController@index');
+Route::get('/terms&conditions', 'TermsAndConditionsController@index');
+Route::get('/PrivacyPolicy', 'PrivacyPolicyController@index');
+Route::get('/AboutUs', 'AboutUsController@index');
