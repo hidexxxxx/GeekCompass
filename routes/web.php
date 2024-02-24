@@ -65,11 +65,11 @@ use App\Http\Controllers\AboutUsController;
 // Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
 
 // Route::get('/', [WelcomeController::class, 'index']);
-Route::get('/welcome', [WelcomeController::class, 'index']);
-Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
-Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
-Route::get('/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
-Route::get('/AboutUs', [AboutUsController::class, 'index']);
+// Route::get('/welcome', [WelcomeController::class, 'index']);
+// Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
+// Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
+// Route::get('/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
+// Route::get('/AboutUs', [AboutUsController::class, 'index']);
 
 // Route::resource('/', 'WelcomeController');
 // Route::resource('/welcome', 'WelcomeController');
