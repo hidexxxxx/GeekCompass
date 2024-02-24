@@ -50,30 +50,9 @@ use App\Http\Controllers\AboutUsController;
 
 // ▼本番環境下で機能
 
-// Route::get('/', 'WelcomeController@index');
-// Route::get('/welcome', 'WelcomeController@index');
-// Route::get('/HowtoUse', 'HowtoUseController@index');
-// Route::get('/terms&conditions', 'TermsAndConditionsController@index');
-// Route::get('/PrivacyPolicy', 'PrivacyPolicyController@index');
-// Route::get('/AboutUs', 'AboutUsController@index');
-
-// Route::get('/', 'App\Http\Controllers\WelcomeController@index');
-// Route::get('/welcome', 'App\Http\Controllers\WelcomeController@index');
-// Route::get('/HowtoUse', 'App\Http\Controllers\HowtoUseController@index');
-// Route::get('/terms&conditions', 'App\Http\Controllers\TermsAndConditionsController@index');
-// Route::get('/PrivacyPolicy', 'App\Http\Controllers\PrivacyPolicyController@index');
-// Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
-
 Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/welcome', [WelcomeController::class, 'index']);
 Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
 Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
 Route::get('/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
 Route::get('/AboutUs', [AboutUsController::class, 'index']);
-
-// Route::resource('/', 'WelcomeController');
-// Route::resource('/welcome', 'WelcomeController');
-// Route::resource('/HowtoUse', 'HowtoUseController');
-// Route::resource('/terms&conditions', 'TermsAndConditionsController');
-// Route::resource('/PrivacyPolicy', 'PrivacyPolicyController');
-// Route::resource('/AboutUs', 'AboutUsController');
