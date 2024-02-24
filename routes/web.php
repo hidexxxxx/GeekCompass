@@ -63,9 +63,8 @@ use App\Http\Controllers\AboutUsController;
 // Route::get('/terms&conditions', 'App\Http\Controllers\TermsAndConditionsController@index');
 // Route::get('/PrivacyPolicy', 'App\Http\Controllers\PrivacyPolicyController@index');
 // Route::get('/AboutUs', 'App\Http\Controllers\AboutUsController@index');
-Route::get('/', [WelcomeController::class]);
 
-// Route::get('/', [WelcomeController::class, 'index']);
+Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/welcome', [WelcomeController::class, 'index']);
 Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
 Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
