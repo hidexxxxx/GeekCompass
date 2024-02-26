@@ -15,7 +15,7 @@
     RewriteRule ^ %1 [L,R=301]
 
     # Rewrite specific paths
-    RewriteRule ^AboutUs$ GeekCompass/AboutUs [L]
+    # RewriteRule ^AboutUs$ GeekCompass/AboutUs [L]
 
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d

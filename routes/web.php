@@ -6,7 +6,8 @@ use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\HowtoUseController;
 use App\Http\Controllers\TermsAndConditionsController;
 use App\Http\Controllers\PrivacyPolicyController;
-use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\OurTeamController;
+// use App\Http\Controllers\AboutUsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,4 +56,5 @@ Route::get('/welcome', [WelcomeController::class, 'index']);
 Route::get('/HowtoUse', [HowtoUseController::class, 'index']);
 Route::get('/terms&conditions', [TermsAndConditionsController::class, 'index']);
 Route::get('/PrivacyPolicy', [PrivacyPolicyController::class, 'index']);
-Route::get('/AboutUs', [AboutUsController::class, 'index']);
+Route::get('/OurTeam', [OurTeamController::class, 'index']);
+// Route::get('/AboutUs', [AboutUsController::class, 'index']);

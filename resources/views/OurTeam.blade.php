@@ -46,7 +46,7 @@
                             </svg>
                         </button>
                     </a>
-                    {{-- Our TEAM リンク --}}
+                    {{-- About Us リンク --}}
                     <a href="/GeekCompass/OurTeam">
                         <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">About Us
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -56,21 +56,135 @@
                     </a>
                 </nav>
             </div>
-        </header>    
+        </header>       
 
         <main>
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto flex flex-col">
-                    <div class="lg:w-4/6 mx-auto">
-                        <div class="rounded-lg h-64 overflow-hidden">
-                            <img alt="content" class="object-cover object-center h-full w-full" src="images/GeekCompass_logo.png">
+                <div class="container px-5 py-24 mx-auto">
+                    <div class="flex flex-col text-center w-full mb-20">
+                        <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-lg mt-6" >
+                            G'sコミュニティーには素敵な知識や経験を持った人が多くいるけれど
+                            <br>
+                            誰がどんなバックグラウンドを持っているのか分かれば
+                            <br>
+                            更に情報をシェアし合うことができ
+                            <br>
+                            G's起点型のイノベーションが進むのではないかと思い
+                            <br>
+                            Geek Compassを作りました。
+                            <br>
+                            Geek Compassを使い
+                            <br>
+                            皆さんのイメージを形にできる支援ができれば幸いです。
+                        </p>    
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-lg mt-12" >（現在、社内導入型のメンタリングプラットフォームを開発中。）</p>                        
+                    </div>
+                    <div class="flex flex-wrap justify-center -m-4">
+                        
+                        {{-- 1人目のプロフィール --}}
+                        <div class="p-4 lg:w-1/4 md:w-1/2 mr-8">
+                            <div class="h-full flex flex-col items-center">
+                                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-65 object-cover object-center mb-4" src="images/marusii.jpg">
+                                <div class="w-full">
+                                    <h2 class="title-font font-medium text-lg text-gray-900">丸山　正人</h2>
+                                    <h3 class="text-gray-500 mb-3">Leader & Developer</h3>
+                                    <p class="mb-4">
+                                        <li>
+                                            愛知県 出身
+                                        </li>
+                                        <li>
+                                            4人兄弟の末っ子。6歳の頃から母子家庭
+                                        </li>
+                                        <li>
+                                            高校時に上京し、大学卒業まで計６年間寮生活を経験
+                                        </li>
+                                        <li>
+                                            大学3年次インドのデリー大学に1年間留学🇮🇳
+                                        </li>
+                                        <li>
+                                            新卒でMicrosoftに入社。2年間カスタマーサクセスを担当
+                                        </li>
+                                        <li>
+                                            G's ACCADEMY東京のLAB15期卒業
+                                        </li>
+                                    </p>
+                                    <p class="leading-relaxed text-base mb-8 mt-8">
+                                        私丸山は、母親が女手一つで4人の子供を育てる傍ら、仕事で疲弊する母の姿を見て育ち、
+                                        そして大学時代に携わった就職支援ボランティアでは、期待や希望を持って大学を卒業した後輩たちが会社の中で様々な悩みを抱え、
+                                        休職や退職をした姿を見てしまった事が原体験にあり、ここから掘り起こした Why meは「職場で手を差し伸べ合える優しいセカイを創りたい」です。
+                                        現在、社内導入型のメンタリングプラットフォームのアイデアを基に、
+                                        日本で働く人の幸福の追求に貢献する為、現在、起業準備中。</p>
+                                    <span class="inline-flex mt-8">
+                                    {{-- Xのアカウント情報 --}}
+                                    <a class="ml-2 text-gray-500" href="https://twitter.com/marucy_official" rel="noopener noreferrer" target="_blank">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                                        </svg>
+                                    </a>
+                                    {{-- メールの連絡先 --}}
+                                    <a class="ml-2 text-gray-500" href="mailto:masato23.maruyama@gmail.com">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                        </svg>
+                                    </a>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex flex-col sm:flex-col mt-16 mb-16 justify-center text-center"> 
-                            <h1 class="sm:text-3xl text-3xl font-medium title-font mb-6 mt-6 text-gray-900">G'sのコミュニティーには</h1>
-                            <h1 class="sm:text-3xl text-3xl font-medium title-font mb-6 mt-6 text-gray-900">素敵な知識や経験を持っている方が大勢います。</h1>
-                            <h1 class="sm:text-3xl text-3xl font-medium title-font mb-6 mt-6 text-gray-900">G's Compassで素敵な知見を持っている方に出会い</h1>
-                            <h1 class="sm:text-3xl text-3xl font-medium title-font mb-6 mt-6 text-gray-900">セカイを変える活動をBoostさせましょう。</h1>
+                        
+                        {{-- 2人目のプロフィール --}}
+                        <div class="p-4 lg:w-1/4 md:w-1/2 ml-8">
+                            <div class="h-full flex flex-col items-center">
+                            <img alt="team" class="flex-shrink-0 rounded-lg w-full h-65 object-cover object-center mb-4" src="images/hidexxxxx.jpg">
+                                <div class="w-full">
+                                    <h2 class="title-font font-medium text-lg text-gray-900">山本　英貴</h2>
+                                    <h3 class="text-gray-500 mb-3">Co-leader & Developer</h3>
+                                    <p class="mb-4">
+                                        <li>
+                                            福岡県 出身
+                                        </li>
+                                        <li>
+                                            2人兄弟の末っ子。理系の家庭で育つ
+                                        </li>
+                                        <li>
+                                            大学期間中に海外渡航にハマる。海外インターン参加やアメリカ横断をする
+                                        </li>
+                                        <li>
+                                            大学院で自動車の研究を行う
+                                        </li>
+                                        <li>
+                                            新卒で国内自動車メーカーに入社し、SUV車両の空力開発や技術開発に4年間従事
+                                        </li>
+                                        <li>
+                                            G's ACCADEMY福岡のLAB9期卒業
+                                        </li>
+                                    </p>
+                                    <p class="leading-relaxed text-base mb-8 mt-8">
+                                        私山本の原体験は、家族が仕事で心身疲弊する姿を見て育った事、
+                                        そしてクルマが好きで自動車メーカーへ進んだが、
+                                        社員の多くが ”クルマは好きだけど仕事は嫌いな人が大半であったこと” に何かがオカシイと思った事、
+                                        しまいには私自身も人間関係や長時間労働が原因で休職し、そのまま退職してしまった事にあります。
+                                        そんな中、G's ACCADEMYのLABコースに入学し、
+                                        同期の一人だった丸山の Why me に深く共感して意気投合し、現在、丸山と起業準備中。</p>
+                                    <span class="inline-flex mt-8">
+                                    {{-- Xのアカウント情報 --}}
+                                    <a class="ml-2 text-gray-500" href="https://twitter.com/sociality_nxt_0">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                                        </svg>
+                                    </a>
+                                    {{-- メールの連絡先 --}}
+                                    <a class="ml-2 text-gray-500" href="mailto:hidetaka54522@gmail.com">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                                        </svg>
+                                    </a>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
             </section>
