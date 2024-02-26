@@ -20,10 +20,10 @@
     <body class="antialiased">
         <header class="text-gray-600 body-font border-b border-gray-300 mb-4">
             <div class="container mx-auto flex flex-wraxp p-5 flex-col md:flex-row items-center">                       
-                <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2 hover:cursor-pointer" alt="Logo" width="18.2%" height="5.5%" onclick="window.location.href = '/welcome'">
+                <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2 hover:cursor-pointer" alt="Logo" width="18.2%" height="5.5%" onclick="window.location.href = '/GeekCompass/welcome'">
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     {{-- 利用方法リンク --}}
-                    <a href="/HowtoUse">
+                    <a href="/GeekCompass/HowtoUse">
                         <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">利用方法
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -31,7 +31,7 @@
                         </button>
                     </a>
                     {{-- 利用規約リンク --}}
-                    <a href="/terms&conditions">
+                    <a href="/GeekCompass/terms&conditions">
                         <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">利用規約
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -39,7 +39,7 @@
                         </button>
                     </a>
                     {{-- プライバシー・ポリシーリンク --}}
-                    <a href="/PrivacyPolicy">
+                    <a href="/GeekCompass/PrivacyPolicy">
                         <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">プライバシーポリシー
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -47,7 +47,7 @@
                         </button>
                     </a>
                     {{-- About Us リンク --}}
-                    <a href="/AboutUs">
+                    <a href="/GeekCompass/AboutUs">
                         <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">About Us
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -56,7 +56,7 @@
                     </a>
                 </nav>
             </div>
-        </header>    
+        </header>       
 
         <main>
             <section class="text-gray-600 body-font">
@@ -192,7 +192,7 @@
 
         <footer class="text-gray-600 body-font">
             <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center">
-                <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2 hover:cursor-pointer" alt="Logo" width="9.9%" height="3%" onclick="window.location.href = '/welcome'">
+                <img src="{{ asset('images/GeekCompass_logo.png') }}" class="text-black p-2 hover:cursor-pointer" alt="Logo" width="9.9%" height="3%" onclick="window.location.href = '/GeekCompass/welcome'">
                 <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Geek's Compass —
                 {{-- Xのアカウント情報 --}}
                 <a href="https://twitter.com/marucy_official" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@marucy_official</a>
